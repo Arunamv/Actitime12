@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeMethod;
 
 public abstract class BaseTest implements AutoConstant 
 {
-	public WebDriver driver=null;
+	public static  WebDriver driver=null;
 	@BeforeMethod
 	public void preConditions()
 	{
